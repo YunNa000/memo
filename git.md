@@ -1,4 +1,35 @@
-깃 정리
+Git 명령어 정리
+
+1. Branch 생성
+    # 방법 1
+    - git pull origin main
+    - git branch 브랜치이름
+        - [develop]
+        - [feature/기능요약]
+    - git checkout 브랜치이름
+    - git merge main
+        - main 브랜치의 최신 커밋을 기준으로 받아오기
+
+    # 방법 2
+    - git pull origin main
+    - git checkout -b 새브랜치이름
+        - main 브랜치의 최신 커밋을 기준으로 새브랜치 생성 + 전환
+
+2. Branch 삭제
+    # 로컬 브랜치
+    - git branch -d 브랜치이름
+    - git branch -D 브랜치이름
+        - 만약, 해당 브랜치에 아직 병합되지 않는 변경사항이 있어 강제 삭제인 경우
+    # 원격 브랜치
+    - git push origin --delete 브랜치이름
+
+3. Branch 확인
+    # 로컬인지
+    - git branch
+    # 원격인지
+    - git branch -r
+    # 로컬인지 원격인지 모두 확인
+    - git branch -a
 
 git add
 
