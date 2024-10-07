@@ -37,4 +37,8 @@ CNN rules (condensed nearest neighbor rule)
 
 데이터가 데이터공간내에서 어떻게 생겼나에 따라 완전히 다르기 때문에
 
+CNN inductive biases
+
+
+
 One side selection (oss)

@@ -31,6 +31,12 @@ Git 명령어 정리
     # 로컬인지 원격인지 모두 확인
     - git branch -a
 
+4. git local과 origin 원격 연결
+    먼저 local branch 를 생성하고 이를 원격에 올리고 싶으면 다음과 같은 명령어를 사용하여 연결시킬 수 있다
+
+    - git push --set-upstream origin <로컬-브랜치-이름> 
+    
+
 git add
 
 git commit
